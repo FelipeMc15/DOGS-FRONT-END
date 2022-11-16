@@ -1,0 +1,123 @@
+.container_creation {
+  display: flex;
+  justify-content: space-evenly;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-image: url("./../img/img_form.png");
+  text-align: center;
+}
+
+.form_container {
+  width: 100%;
+  min-width: 700px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.formbox {
+  width: 500px;
+}
+
+.button_input {
+  cursor: pointer;
+  line-height: 2.5;
+  width: 75px;
+  background-color: $buttons-color;
+  border-radius: 3px;
+}
+.button_input:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+  padding: 8px;
+  border: 1px solid $principa-color;
+  border-radius: 15px;
+  gap: 5px;
+  box-shadow: 6px 7px 8px -6px $secondary-color;
+}
+
+.sidebar_box > h4 {
+  width: 100%;
+}
+.selectedItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px;
+  margin: 5px 8px;
+  padding: 3px 10px;
+}
+
+input {
+  width: 50%;
+  line-height: 1.8;
+  color: $letter-color;
+  background-color: $principa-color;
+  border-radius: 5px;
+  text-align: center;
+}
+input::placeholder {
+  color: $letter-color;
+  opacity: 0.8;
+}
+.error {
+  font-size: 10px;
+  color: red;
+}
+.buttonSection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+option {
+  line-height: 2;
+}
+
+.styled_select {
+  background-color: $principa-color;
+  color: $letter-color;
+  border-radius: 3px;
+}
+
+.button_eliminate {
+  cursor: pointer;
+  background-color: $buttons-color;
+  border-radius: 3px;
+  height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h4 {
+  color: #285db3;
+  font-weight: 800;
+  text-shadow: 1px 0px 1px $secondary-color;
+}
+
+.text_label {
+  color: #285db3;
+  font-weight: 800;
+  text-shadow: 1px 0px 1px $secondary-color;
+}
+
+.text_temp {
+  color: #285db3;
+  font-weight: 800;
+  text-shadow: 1px 0px 1px $secondary-color;
+}
