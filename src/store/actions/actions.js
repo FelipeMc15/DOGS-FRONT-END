@@ -33,8 +33,6 @@ export function searchDogs(search) {
             type: SEARCH_DOGS,
             payload: dogs.data,
           });
-        } else {
-          alert("There is no dog");
         }
       })
       .catch((error) => {
