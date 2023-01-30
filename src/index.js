@@ -8,7 +8,7 @@ import store from "./store";
 import axios from "axios";
 
 // axios.defaults.baseURL = "http://localhost:3001/api";
-axios.defaults.baseURL = "https://dogs-back-end-production-9d47.up.railway.app/api";
+axios.defaults.baseURL = "https://dogs-back-end-production-1ba8.up.railway.app/api";
 
 ReactDOM.render(
   <React.StrictMode>
